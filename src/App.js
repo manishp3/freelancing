@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import NavBar from "./navBar/NavBar";
+import Who from "./who/Who";
+import Service from "./service/Service";
+import Vision from "./vision/Vision";
+import Commerce from "./Commercial/Commerce";
+import Blog from "./Blogs/Blog";
+import Testimo from "./testimo/Testimo";
+import About from "./about/About";
+import ScrollTop from "./scrollTop/ScrollTop";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <Who />
+      <Service />
+      <Vision />
+      <Commerce />
+      <Blog />
+      <Testimo />
+      <About />
+      <ScrollTop />
+    </>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,36 @@
+
+.mainA{
+  display: flex;
+  align-items: center;
+  justify-content: center;align-items: center;
+  /* flex-direction: row; */
+  gap: 5px;
+}
+
+.mainA >div{
+  flex:1;
+}
+
+.rightA p{
+  text-align: start;
+  font-weight: 500;
+}
+.cols{
+  display: flex;
+  flex-direction: column;
+}
+.colsA{
+  display: flex;
+    justify-content: flex-start;
+}
+.hr{
+  width: 85%;
+  margin: 0 auto; 
+}
+.footer{
+  width: 85%;
+  margin: 0 auto; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

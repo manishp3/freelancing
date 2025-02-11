@@ -1,0 +1,7 @@
+.container{
+    background-color: antiquewhite;
+    height: 400px;
+    width: 100%;
+    display: flex   ;
+}
+

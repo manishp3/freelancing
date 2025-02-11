@@ -1,0 +1,40 @@
+.box {
+  height: 333px;
+  width: 80vw;
+  padding: 3px;
+  margin: 3px;
+  border: 2px solid black;
+}
+.parent {
+  /* padding: 30px; */
+  margin: 10px;
+  border: 2px solid purple;
+  position: relative;
+}
+
+.box-1 {
+  height: 100px;
+  width: 1200px;
+  background-color: yellow;
+  position: sticky;
+  top: 10px;
+  /* position: absolute; */
+}
+.box-2 {
+  background-color: green;
+  /* position: relative; */
+  /* top: 30px; */
+  /* left: 20px;
+  bottom: 30px; */
+}
+.box-3 {
+  background-color: black;
+  /* position: fixed;
+  bottom: 0px;
+  left: 100px; */
+}
+.box-4 {
+  /* width: 100vw; */
+  background-color: red;
+  
+}
