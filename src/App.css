@@ -45,3 +45,31 @@ body, html {
   width: 100%;
   overflow-x: hidden; /* Prevent horizontal scroll */
 }
+.container {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  width: 100vw;
+  /* border-radius: 10; */
+  background-color: lightgray;
+}
+
+.main_cont{
+  border: 1px solid gray;
+  border-radius: 10;
+  height: 250px;
+  width: 250px;
+background-color: bisque;
+}
+
+.btn_text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  margin: 20;
+  padding: 20;
+  background-color: green;
+}

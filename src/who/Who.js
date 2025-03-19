@@ -14,7 +14,7 @@ const who = () => {
           <hr/>
           <h3>Trust in Shilp,Build Your Future</h3>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus quas nulla, saepe cumque recusandae quisquam reprehenderit iusto odio doloribus. Asperiores velit doloremque, commodi amet cum, minima sint, nam numquam consectetur autem incidunt unde ad.</p>
-          <button>About Us
+          <button className='whobtn'>About Us
           <CallMadeIcon/>
           </button>
         </div>

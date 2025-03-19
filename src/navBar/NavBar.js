@@ -23,11 +23,11 @@ function Navbar() {
           </ul>
         </div>
         <div class="call">
-          <button>Enquiry Now</button>
+          <button className="enquiry-btn">Enquiry Now</button>
           <CallIcon className="icon" style={{ cursor: "pointer" }} />
           <MenuOpenIcon className="icon" style={{ cursor: "pointer" }} />
-        </div>
         <WhatsAppIcon className="whatsap_icon" />
+        </div>
       </div>
     </>
   );

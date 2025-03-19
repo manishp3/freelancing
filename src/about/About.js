@@ -28,26 +28,26 @@ const About = () => {
         <div class="rightA">
           <p>Contact us</p>
           <div class="cols">
-          <div className="colsA">
-            <EditLocationIcon />
-            <p>Shilp House,Rajpath Road,Opposite rajpath,203,gift City</p>
-          </div>
-          <div className="colsA">
-            <MobileScreenShareIcon />
-            <p>+91 704360699</p>
-            
-            <p>+91 9657362</p>
-          </div>
-          <div className="colsA">
-            <EmailIcon />
-            <p>shilp70@gmail.com</p>
-          </div>
+            <div className="colsA">
+              <EditLocationIcon />
+              <p>Shilp House,Rajpath Road,Opposite rajpath,203,gift City</p>
+            </div>
+            <div className="colsA">
+              <MobileScreenShareIcon />
+              <p>+91 704360699</p>
+              <br />
+              <p>+91 9974231328</p>
+            </div>
+            <div className="colsA">
+              <EmailIcon />
+              <p>shilp70@gmail.com</p>
+            </div>
           </div>
         </div>
 
       </div>
       <div class="hr">
-        <hr/>
+        <hr />
       </div>
       <div class="footer">
         <div class="leftF">

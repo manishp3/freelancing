@@ -17,11 +17,25 @@ width: 400px;
 }
 
 .right_1 button {
-    color: black;
+    /* color: black;
     border: 1.5px solid black;
     background-color: white;
     border-radius: 19px;
     padding: 5px;
-    width: 110px;
+    width: 110px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Space between text and icon */
+    background-color: white; /* Example button color */
+    /* color: #222; Text color */
+    font-size: 16px;
+    font-weight: bold;
+    border:  1.5px solid black;
+    padding: 10px 20px;
+    border-radius: 19px;
+    cursor: pointer;
+    /* transition: background 0.3s ease-in-out; */
+    
   }
   

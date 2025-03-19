@@ -21,7 +21,10 @@
 }
 .colsA{
   display: flex;
-    justify-content: flex-start;
+  align-items: center; /* Center items vertically */
+  justify-content: flex-start; /* Center items horizontally */
+  gap: 8px; 
+  
 }
 .hr{
   width: 85%;
